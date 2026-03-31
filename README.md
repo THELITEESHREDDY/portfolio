@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Portfolio v2.0 | Liteesh Reddy
 
-## Getting Started
+A high-performance, monochromatic developer portfolio built with a **"System-Active"** aesthetic. This project showcases full-stack proficiency, algorithmic milestones, and a "builder" mindset through a clean, engineering-focused UI.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-blue?style=for-the-badge&logo=tailwind-css)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
+![Turbopack](https://img.shields.io/badge/Turbopack-Ready-orange?style=for-the-badge)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) (Neobrutalist & Glassmorphism)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Animations:** [Typewriter-effect](https://www.npmjs.com/package/typewriter-effect)
+- **Build Tool:** Turbopack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏗️ Key Modules
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. Hero (Identity)
+- **Terminal Mockup:** Right-aligned system diagnostic simulation.
+- **Grayscale Visuals:** High-contrast background image integration with hover-state color saturation.
 
-## Learn More
+### 2. Growth & Training
+- **DSA Timeline:** Highlights intensive training at **Programming Pathshala**.
+- **Certification Feed:** Categorized credentials from NPTEL, Google Cloud, and DeepLearning.AI.
 
-To learn more about Next.js, take a look at the following resources:
+### 3. Verified Impact (Achievements)
+- **National Percentile:** Showcases **Top 7% (93%ile)** standing in JEE Main among 1.5M candidates.
+- **Algorithmic Output:** Tracks **400+** solutions across major CP platforms.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/portfolio.git](https://github.com/your-username/portfolio.git)
