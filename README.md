@@ -33,4 +33,4 @@ A high-performance, monochromatic developer portfolio built with a **"System-Act
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/portfolio.git](https://github.com/your-username/portfolio.git)
+   git clone [https://github.com/THELITEESHREDDY/Portfolio](https://github.com/THELITEESHREDDY/Portfolio.git)
