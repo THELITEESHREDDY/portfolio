@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import { GithubIcon, ExternalLink } from 'lucide-react' // Install lucide-react for icons
+import {  ExternalLink } from 'lucide-react' // Install lucide-react for icons
 
 const projects = [
   {

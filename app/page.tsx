@@ -7,6 +7,7 @@ import Projects from "./projects/page";
 import Training from "./certificationsandTraning/page";
 import Education from "./education/page";
 import Contact from "./contact/page";
+import Achievements from "./achievements/page";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Skills/>
       <Projects/>
       <Training/>
+      <Achievements/>
       <Education/>
       <Contact/>
     </div>

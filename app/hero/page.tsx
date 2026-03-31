@@ -1,6 +1,6 @@
 "use client"
 import Typewriter from 'typewriter-effect';
-import Image from 'next/image'; // If using Next.js
+ // If using Next.js
 
 function Hero() {
   const handleResumeClick = () => {
@@ -11,12 +11,12 @@ function Hero() {
   return (
     // Changed h-auto to min-h-screen to ensure the borders look correct 
     // while allowing content to grow if needed
-    <div id='home' className="min-h-screen w-screenrelative overflow-hidden">
+    <div id='home' className="min-h-screen w-screen relative overflow-hidden">
       
       <main className="min-h-screen w-full flex flex-col md:flex-row border-b-2 border-black pt-[8vh]">
         
         {/* LEFT PANEL: Branding & Identity */}
-        <div className="w-full md:w-3/5 border-r-2 border-black flex flex-col justify-center p-8 md:p-20 relative z-10">
+        <div className="w-full md:w-3/5 border-r-2 border-black flex flex-col justify-center p-8 md:p-20 relative  z-10">
           
           <div className="absolute top-10 left-10 flex items-center gap-2">
             <span className="w-3 h-3 bg-orange-600 animate-pulse"></span>
@@ -67,55 +67,50 @@ function Hero() {
           </div>
         </div>
 
-        {/* RIGHT PANEL: Design + Your Photo */}
-        <div className="hidden md:flex md:w-[40%] bg-zinc-50 flex-col justify-between p-10 font-mono self-stretch relative overflow-hidden">
-          
-          {/* 1. Terminal Mockup (Stays in background) */}
-          <div className="space-y-6 text-sm text-zinc-400 mt-10 relative z-10">
-            <div>
-               <p className="text-orange-600"> {">"} Initializing portfolio_v2.0...</p>
-               <p className="text-zinc-500"> [SYSTEM] Calibration complete.</p>
-            </div>
-            
-            <div className="space-y-1">
-               <p> {">"} Fetching core_competencies...</p>
-               <p className="text-black font-bold bg-zinc-200 px-2 w-fit"> [OK] React.js / FastAPI / PostgreSQL </p>
-            </div>
+        {/* RIGHT PANEL: Terminal Content */}
+        {/* RIGHT PANEL: Integrated Background Image */}
+      <div 
+      className="hidden md:flex md:w-[40%] flex-col justify-between items-end p-10 font-mono self-stretch relative overflow-hidden bg-cover bg-center bg-no-repeat "
+      style={{ backgroundImage: "url('/bg_remove.png')" }}
+      >
+  
+      {/* 1. Terminal Mockup - Aligned Top-Right */}
+      <div className="relative z-30 text-right space-y-6 max-w-xs">
+      <div>
+        <p className="text-orange-600"> {">"} Initializing portfolio_v2.0...</p>
+        <p className="text-zinc-500"> [SYSTEM] Calibration complete.</p>
+      </div>
+    
+      <div className="space-y-1">
+        <p className="text-zinc-400"> {">"} Fetching core_competencies...</p>
+        <p className="text-black font-bold px-2 inline-block"> 
+          [OK] React.js / FastAPI / PostgreSQL 
+        </p>
+      </div>
 
-            <div className="space-y-1">
-               <p> {">"} Checking mission_statement...</p>
-               <p className="text-black font-bold italic border-l-2 border-black pl-2"> 
-                "Solve human problems with code." 
-               </p>
+        <div className="space-y-1">
+          <p className="text-zinc-400"> {">"} Checking mission_statement...</p>
+            <p className="text-black font-bold italic border-r-2 border-black pr-2 inline-block"> 
+              "Solve human problems with code." 
+            </p>
             </div>
           </div>
 
-          {/* 2. THE PHOTO (Floating Sticker) */}
-          {/* CHANGE MADE HERE: Removed flex centering and used absolute positioning on the bottom-left */}
-          <div className="absolute bottom-0 left-0 z-20 pointer-events-none p-4">
-             <img 
-               src="/right_image1.png" 
-               alt="Liteesh Reddy"
-               // Adjusted size slightly for better fit when aligned to the edge
-               className="w-[60%] md:w-[70%] h-[80%] object-contain drop-shadow-2xl translate-y-8 scale-110"
-             />
-          </div>
-
-          {/* 3. Bottom Visual Elements */}
-          <div className="relative h-64 flex flex-col justify-end z-10">
-            {/* The Large "LR" Watermark (Stays on the right) */}
+          {/* 2. Bottom Visual Elements - Kept at Bottom-Right */}
+          <div className="relative h-64 flex flex-col justify-end z-10 w-full">
             <h2 className="text-[12rem] font-black text-zinc-200 absolute -bottom-10 -right-6 leading-none select-none z-0">
               LR
             </h2>
-            
-            {/* Current Location Text (Stays on the right) */}
             <div className="relative z-10 space-y-2 text-right">
-               <p className="text-xs font-bold uppercase tracking-[0.5em] text-zinc-400">Current_Location</p>
-               <p className="text-2xl font-black text-black">Phagwara, Punjab [IN]</p>
+             <p className="text-xs font-bold uppercase tracking-[0.5em] text-zinc-400">Current_Location</p>
+             <p className="text-2xl font-black text-zinc-600">Phagwara, Punjab [IN]</p>
             </div>
           </div>
 
         </div>
+        
+
+       
       </main>
     </div>
   );

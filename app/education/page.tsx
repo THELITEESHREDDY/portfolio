@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+
 
 function Education() {
   return (
@@ -15,7 +15,7 @@ function Education() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           
           {/* Left: Current University (Detailed) */}
-          <div className="lg:col-span-7 bg-zinc-50 border-2 border-black p-8 relative">
+          <div className="lg:col-span-7  border-2 border-black p-8 relative">
             <div className="absolute -top-4 -left-4 bg-orange-600 text-white px-4 py-1 font-mono font-bold">
               CURRENT
             </div>

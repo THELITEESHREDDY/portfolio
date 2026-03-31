@@ -5,6 +5,7 @@ const NavBar = () => {
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
     { name: "Training", href: "#training" },
+    { name: "Achievements", href: "#achievements" },
     { name: "Education", href: "#education" },
     { name: "Contact", href: "#contact" },
   ]
@@ -50,5 +51,7 @@ const Bord = () => {
     </div>
   )
 }
-
+export default function Page() {
+  return <div>Layout Page</div>;
+}
 export {NavBar,Bord}
